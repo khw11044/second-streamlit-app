@@ -3,7 +3,7 @@
 
 The deployed web app is live at https://btcsamsungapp.herokuapp.com/
 
-This web app predicts the species of penguins as a function of their input parameters (bill length, bill width, flipper length, body mass, sex and island).
+streamlit을 알게되어서 테스트용 저장소입니다.
 
 The web app was built in Python using the following libraries:
 + streamlit==0.61.0
