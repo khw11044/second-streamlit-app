@@ -25,7 +25,7 @@ scraper = CmcScraper(name, start_date.strftime('%d-%m-%Y'), end_date.strftime('%
 df = scraper.get_dataframe()
 
 fig_close = px.line(df, x='Date', y=['Open', 'High', 'Low', 'Close'], title='가격')
-fig_volume = px.line(df, x='Date', y=['Volume'], title='Volume')
+fig_volume = px.line(df, x='Date', y=['Volume'], title='거래량')
 
 st.plotly_chart(fig_close)
 st.plotly_chart(fig_volume)
